@@ -1,5 +1,12 @@
 # Changelog
 
+## \[0.22.0]
+
+- [`0a5835b`](https://www.github.com/tauri-apps/tray-icon/commit/0a5835b0e6828e37a1f781de9c2d671ae7a939e6) ([#295](https://www.github.com/tauri-apps/tray-icon/pull/295) by [@thief-sty](https://www.github.com/tauri-apps/tray-icon/../../thief-sty)) Update png dependency version to 0.18.
+
+  This avoids duplicated dependencies in downstream crates.
+- [`0a5835b`](https://www.github.com/tauri-apps/tray-icon/commit/0a5835b0e6828e37a1f781de9c2d671ae7a939e6) ([#295](https://www.github.com/tauri-apps/tray-icon/pull/295) by [@thief-sty](https://www.github.com/tauri-apps/tray-icon/../../thief-sty)) Update rust version to 1.73.
+
 ## \[0.21.3]
 
 - [`d3c2468`](https://www.github.com/tauri-apps/tray-icon/commit/d3c24683fd63d197fa064bfbf205ad2fb464e338) ([#293](https://www.github.com/tauri-apps/tray-icon/pull/293) by [@Slinetrac](https://www.github.com/tauri-apps/tray-icon/../../Slinetrac)) Handle Windows tray icon creation when the taskbar is not ready by keeping the message window alive and re-registering on TaskbarCreated.
